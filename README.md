@@ -1,4 +1,5 @@
 # Sentiment Analysis with RNN-based Models on IMDB Dataset
+
 Dự án này triển khai và so sánh các mô hình mạng neural hồi tiếp (Recurrent Neural Networks) để phân loại cảm xúc của các bài đánh giá phim từ tập dữ liệu IMDB. Các mô hình được sử dụng gồm:
 
 RNN cơ bản
@@ -10,6 +11,7 @@ GRU (Gated Recurrent Unit)
 Bi-directional LSTM
 
 Mục tiêu
+
 Phân loại cảm xúc của bài đánh giá phim thành Tích cực (Positive) hoặc Tiêu cực (Negative).
 
 So sánh hiệu năng giữa các loại mạng hồi tiếp khác nhau.
@@ -17,6 +19,7 @@ So sánh hiệu năng giữa các loại mạng hồi tiếp khác nhau.
 Trực quan hóa kết quả huấn luyện và đánh giá.
 
 Công nghệ sử dụng
+
 Python 3.x
 
 TensorFlow 
@@ -26,30 +29,49 @@ NumPy, Matplotlib
 Tập dữ liệu IMDB (có sẵn)
 
 # Cài đặt
+
 git clone https://github.com/dangphank4/RNN.git
+
 # Cách chạy
+
 Chạy mô hình với lựa chọn:
+
 Sử dụng google colab
+
 Các tùy chọn khác:
+
 --epochs 10         # Số vòng lặp huấn luyện
+
 --batch_size 64     # Kích thước batch
+
 --embedding_dim 128 # Kích thước vector từ
 
 # Các mô hình hỗ trợ
+
 Mô hình	Tham số --model
+
 Simple RNN	rnn
+
 LSTM	lstm
+
 GRU	gru
+
 Bi-directional LSTM	bilstm
 
 # Kết quả mẫu
+
 Mô hình	Độ chính xác kiểm tra
+
 RNN	~51.81%
+
 LSTM	~77.29%
+
 GRU	~86.20%
+
 Bi-directional LSTM	~82.11%
 
 # Biểu đồ minh họa 
+
 SimpleRNN
 
 ![image](https://github.com/user-attachments/assets/311b9c95-fe68-4ab9-854a-a002361112c0)
@@ -71,6 +93,7 @@ GRU
 ![image](https://github.com/user-attachments/assets/50008f90-99ff-440b-9fd6-cb9a5f022e88)
 
 Định hướng mở rộng
+
 Thêm Attention Mechanism
 
 Thử nghiệm với Embedding pre-trained (GloVe, FastText)
@@ -80,6 +103,7 @@ Thử nghiệm với Embedding pre-trained (GloVe, FastText)
 Đánh giá mô hình trên tập dữ liệu khác (Amazon reviews, Yelp, v.v.)
 
 # Tác giả
+
 Tên: Phan Lê Hải Đăng
 
 Email: phanlehaidanghsht@gmai.com
