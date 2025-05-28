@@ -66,6 +66,7 @@ Bi-directional LSTM
 ![image](https://github.com/user-attachments/assets/689a2038-dca4-4d09-b3b8-0e3c8fc4b9ec)
 
 GRU
+
 ![image](https://github.com/user-attachments/assets/9400634d-e117-45be-8b40-74775282291d)
 ![image](https://github.com/user-attachments/assets/50008f90-99ff-440b-9fd6-cb9a5f022e88)
 
@@ -85,4 +86,4 @@ Tên: Phan Lê Hải Đăng
 
 Email: phanlehaidanghsht@gmai.com
 
-Github: github.com/phandangk4
+Github: https://github.com/dangphank4
