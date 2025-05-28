@@ -92,7 +92,7 @@ GRU
 ![image](https://github.com/user-attachments/assets/9400634d-e117-45be-8b40-74775282291d)
 ![image](https://github.com/user-attachments/assets/50008f90-99ff-440b-9fd6-cb9a5f022e88)
 
-Định hướng mở rộng
+# Định hướng mở rộng
 
 Thêm Attention Mechanism
 
