@@ -26,8 +26,7 @@ NumPy, Matplotlib
 Tập dữ liệu IMDB (có sẵn)
 
 # Cài đặt
-git clone https://github.com/phandangk4/RNN.git
-cd RNN
+git clone https://github.com/dangphank4/RNN.git
 # Cách chạy
 Chạy mô hình với lựa chọn:
 Sử dụng google colab
